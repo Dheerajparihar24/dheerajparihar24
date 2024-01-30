@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 22px;
+    margin: 0 20px;
+    border: 1px solid;
+}
+
+.nav_bar {
+    /* background-color: brown; */
+    display: flex;
+}
+
+/***box-1 ***/
+.logo-box {
+    width: 120px;
+    height: 42px;
+}
+
+#nordstromrarck_logo {
+    width: 100%;
+    height: 42px;
+    background-size: cover;
+}
+
+/***box-2 ***/
+.nav-search {
+    display: flex;
+    width: 693px;
+    height: 44px;
+}
+
+.serch-ion {
+    width: 40px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: 1px solid;
+    border-right: 0;
+}
+
+.serch-ion i {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.search-input {
+    width: 100%;
+    height: 44px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid;
+    border-left: 0;
+}
+
+/** box-3 **/
+.category-navbar {
+    width: auto;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+
+/* mini-box-I */
+.select-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 0 10px;
+    height: 44px;
+    border: 1px solid;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+/* i{
+    width: 60px;
+    height: 44px;
+    font-size: 1.5rem;
+    text-decoration: none;
+} */
