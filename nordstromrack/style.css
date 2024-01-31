@@ -1,102 +1,115 @@
-* {
-    padding: 0;
+*{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-header {
+.nav_bar{
+    display: flex;
     width: 100%;
-    height: auto;
-    padding: 30px 0px 22px;
-    margin: 0 20px;
-    border: 1px solid;
-}
-
-.nav_bar {
-    /* background-color: brown; */
-    display: flex;
-}
-
-/***box-1 ***/
-.logo-box {
-    width: 120px;
-    height: 42px;
-}
-
-#nordstromrarck_logo {
-    width: 100%;
-    height: 42px;
-    background-size: cover;
-}
-
-/***box-2 ***/
-.nav-search {
-    display: flex;
-    width: 693px;
-    height: 44px;
-}
-
-.serch-ion {
-    width: 40px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    border: 1px solid;
-    border-right: 0;
-}
-
-.serch-ion i {
-    font-size: 1.5rem;
-    text-decoration: none;
-}
-
-.search-input {
-    width: 100%;
-    height: 44px;
-    font-size: 1rem;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    border: 1px solid;
-    border-left: 0;
-}
-
-/** box-3 **/
-.category-navbar {
-    width: auto;
-    height: 44px;
-    display: flex;
-    justify-content: center;
+    background: rgb(1, 0, 0);
+    position: relative;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
+    padding: 15px 30px ;
+}
+        /* ***********
+        * logo start 
+        *************/
+.logo #logo1{
+    font-size: 16px;
+    font-weight: 800px;
+    color: white;
+    background: black;
+    padding: 0;
+    margin: 0;
 }
 
-/* mini-box-I */
-.select-navbar {
+.logo #logo2{
+    font-size: 35px;
+    font-weight: bolder;
+    color:rgb(223, 180, 180);
+    padding: 0;
+    margin: 0;
+    border: 1px solid;
+}
+#logo2 samp{
+    font-size: 45px;
+    font-weight: 200px;
+    padding: 0;
+
+}
+        /* ***********
+         * logo end 
+         *************/
+
+        /* ***********
+        * nav_search_box 
+        *************/
+.search_box{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
+    margin: auto 0;
+    height: 45px;
+    line-height: 35px;
+}
+
+.search_box input{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    height: 100%;
     padding: 0 10px;
-    height: 44px;
-    border: 1px solid;
-    font-size: 1rem;
+    font-size: 20px;
+    width: 560px;
 }
 
-p {
-    font-size: 18px;
-    font-weight: bold;
+.search_box span{
+    display: flex;
+    align-items: center;
+    color: #0a5071;
+    font-size: 20px;
+    background: #fff;
+    cursor: pointer;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    z-index: 1;
 }
 
+        /* *******************
+         * nav_search_box end 
+         *********************/
 
+          /* ***********
+          * nav_list
+          *************/
+ .nav_list ol{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
 
+}
 
-/* i{
-    width: 60px;
-    height: 44px;
-    font-size: 1.5rem;
+.nav_list ol li{
+    margin: 0 2px;
+
+}
+
+.nav_list ol li a{
+    color: #fff;
+    font-size: 25px;
     text-decoration: none;
-} */
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+.nav_list ol li:hover a{
+    background: #fff;
+    color: black;
+    border-radius: 4px;
+}
+
+        /* ***********
+         * nav_list end 
+         *************/
+
