@@ -1,21 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.nav_bar{
+
+body {
+    padding: 5px 20px;
+}
+
+header {
+    padding: 0 5px;
+}
+
+.nav_bar {
     display: flex;
     width: 100%;
-    background: rgb(1, 0, 0);
+    background: rgb(255, 255, 255);
     position: relative;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px ;
+    border-bottom: 1px solid black;
 }
-        /* ***********
+
+/* ***********
         * logo start 
         *************/
-.logo #logo1{
+.logo #logo1 {
     font-size: 16px;
     font-weight: 800px;
     color: white;
@@ -24,35 +34,38 @@
     margin: 0;
 }
 
-.logo #logo2{
+.logo #logo2 {
     font-size: 35px;
     font-weight: bolder;
-    color:rgb(223, 180, 180);
+    color: rgb(223, 180, 180);
     padding: 0;
     margin: 0;
     border: 1px solid;
 }
-#logo2 samp{
+
+#logo2 samp {
     font-size: 45px;
     font-weight: 200px;
     padding: 0;
 
 }
-        /* ***********
+
+/* ***********
          * logo end 
          *************/
 
-        /* ***********
+/* ***********
         * nav_search_box 
         *************/
-.search_box{
+.search_box {
     display: flex;
     margin: auto 0;
     height: 45px;
     line-height: 35px;
+    border: 1px solid;
 }
 
-.search_box input{
+.search_box input {
     border: none;
     outline: none;
     background-color: #fff;
@@ -62,7 +75,7 @@
     width: 560px;
 }
 
-.search_box span{
+.search_box span {
     display: flex;
     align-items: center;
     color: #0a5071;
@@ -75,27 +88,27 @@
     z-index: 1;
 }
 
-        /* *******************
+        /********************
          * nav_search_box end 
          *********************/
 
-          /* ***********
-          * nav_list
-          *************/
- .nav_list ol{
+        /************
+         * nav_list
+         *************/
+.nav_list ol {
     display: flex;
     list-style: none;
     margin: auto 0;
 
 }
 
-.nav_list ol li{
+.nav_list ol li {
     margin: 0 2px;
 
 }
 
-.nav_list ol li a{
-    color: #fff;
+.nav_list ol li a {
+    color: black;
     font-size: 25px;
     text-decoration: none;
     text-transform: capitalize;
@@ -103,13 +116,96 @@
     padding: 5px 10px;
 }
 
-.nav_list ol li:hover a{
-    background: #fff;
-    color: black;
+.nav_list ol li:hover a {
+    background: black;
+    color: #fff;
     border-radius: 4px;
 }
 
-        /* ***********
+/* ***********
          * nav_list end 
          *************/
 
+/* ***********
+          * nav_second
+          *************/
+.nav_second ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 200;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.nav_second ul a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav_second ul li a:hover {
+    border-bottom: 1px solid #000000;
+    color: blue;
+    border-radius: 4px;
+
+}
+
+/****************
+    * nav_second_end
+    *****************/
+
+    /*-----------------*
+    *      footer      *
+    *------------------*/
+
+
+.email_update {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:last center;
+    margin-top: 20px;
+    padding: 35px 0;
+    background: #000000;
+}
+
+.email_update label{
+    font-size: 1.5em;
+    color: white;
+    font-weight: 200;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.email_update input{
+    outline: none;
+    background-color: #fff;
+    height: 50px;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 400px;
+}
+.btn input{
+    outline: none;
+    background-color: #15028b;
+    height:50px;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 400px;
+    border: 1px solid;
+    margin-left: 10px;
+    color: white;
+    font-weight: 600px;
+    
+}
+
+.foter-text{
+    display:grid;
+    border: 5px black;
+    column-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    height: 200px;
+}
