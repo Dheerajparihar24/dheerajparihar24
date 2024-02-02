@@ -20,18 +20,20 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
+    padding: 15px 0px;
 }
 
 /* ***********
         * logo start 
         *************/
 .logo #logo1 {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 800px;
     color: white;
     background: black;
-    padding: 0;
+    padding: 5px 2px;
     margin: 0;
+    cursor: pointer;
 }
 
 .logo #logo2 {
@@ -172,68 +174,44 @@ header {
 
 }
 
-        /* swiper */
+        *********************/* swiper */*******************
 
-.mySwiper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* min-height: 100vh; */
-    border: 2px solid;
-    /* background-color: blue; */
-    padding: 0 35px;
-}
-.wrapper{
-    max-width: 1100px;
+*********************/* swiper end */*******************
+
+
+    /******video****/
+.video{
     width: 100%;
-}
-.wrapper i {
-    height: 50px;
-    width: 50px;
-    background: #fff;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    position: absolute;
-    top: 100%;
-    transform: translatev(-50%);
-    font-size: 2rem;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: auto;
+    overflow: hidden;
+    background-size: cover;
+    margin: 20px 0px;
     
 }
-.wrapper i:first-child{
-left: 16%
+.video video{
+    width:100%;
 }
+        /*---------------------*
+        *     containedr_2     *
+        *----------------------*/
 
-.wrapper i:last-child{
-    right: 16%;
-}
-
-.wrapper .carousel{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100%/1) -12px);
-    gap: 16px;
-    overflow: hidden;
-}
-.carousel .card{
-    list-style: none;
-    border-radius: 8px; 
-}
-.card .img img{
-    width: 1100px;
+.containedr_2{
+    width: 100%;
     height: auto;
-    object-fit: cover;
-    border-radius: 15px;
+    border: 1px solid red;
+    background: #135bd7;
 }
-
-
-
-
-
-
-   
+.containedr_2 div img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    justify-content: center;
+}
+/* .containedr_2 div img:hover{
+    width: 100%;
+    margin: auto;
+}
+    */
 
 
 
