@@ -91,13 +91,26 @@
 
 ---
 
-<h3 align="center">📊 GitHub Stats:</h3>
+<h2 align="center">📊 My GitHub Stats</h2>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dheerajparihar24&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+  <a href="https://github.com/dheerajparihar24">
+    <img src="https://github-readme-stats.vercel.app/api?username=dheerajparihar24&show_icons=true&theme=tokyonight&hide_border=true" alt="dheerajparihar24 GitHub Stats" />
+  </a>
 </p>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dheerajparihar24&show_icons=true&locale=en" alt="GitHub Stats" />
+  <a href="https://github.com/dheerajparihar24">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=dheerajparihar24&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  </a>
 </p>
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dheerajparihar24" alt="GitHub Streak" />
+  <a href="https://github.com/dheerajparihar24">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dheerajparihar24&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dheerajparihar24&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
